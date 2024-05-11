@@ -18,3 +18,20 @@ main ul li,
 .non-ul {
 	@apply ml-8;
 }
+
+.new-design > a {
+	@apply !text-neutral-600 !underline !decoration-neutral-700 !underline-offset-[3px];
+}
+
+.new-design h3 {
+	@apply !font-bold;
+}
+
+.new-design main > ul {
+	@apply !flex !w-full !flex-row gap-4;
+}
+
+.new-design main ul li,
+.new-design .non-ul {
+	@apply !w-full;
+}
