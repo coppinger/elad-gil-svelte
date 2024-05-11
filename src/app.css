@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+	@apply text-neutral-600 underline decoration-neutral-700 underline-offset-[3px];
+}
+
+h3 {
+	@apply font-bold;
+}
+
+main > ul {
+	@apply flex list-disc flex-col gap-4;
+}
+
+main ul li,
+.non-ul {
+	@apply ml-8;
+}
