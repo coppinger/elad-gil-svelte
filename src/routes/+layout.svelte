@@ -2,6 +2,7 @@
 	import '../app.css';
 	import '@fontsource-variable/familjen-grotesk';
 	import { isNew } from '$lib/store';
+	import cn from 'classnames';
 </script>
 
 <svelte:head>
@@ -43,11 +44,14 @@ companies focused on the technology future."
 </svelte:head>
 
 <div
-	class="min-w-screen relative mx-auto flex min-h-screen max-w-[1064px] flex-col gap-8 px-5 py-16 sm:px-8 sm:py-40"
+	class={cn(
+		'min-w-screen relative mx-auto flex min-h-screen max-w-[1064px] flex-col gap-8 py-16  sm:py-40',
+		$isNew ? 'mx-5 xl:mx-auto' : 'px-5 sm:px-8'
+	)}
 >
 	{#if $isNew}
 		<div
-			class="absolute left-0 top-0 -z-10 grid h-full w-full grid-cols-5 border border-dashed border-neutral-300"
+			class="absolute left-0 top-0 -z-10 flex h-full w-full justify-between border border-dashed border-neutral-300"
 		>
 			<div class="h-full w-full border-r border-dashed border-neutral-300"></div>
 			<div class="h-full w-full border-r border-dashed border-neutral-300"></div>

@@ -1,12 +1,39 @@
-<script>
+<script lang="ts">
 	import TextSection from '$lib/components/TextSection.svelte';
 
 	import { isNew } from '$lib/store';
+
+	const investments: string[] = [
+		'Airbnb',
+		'Airtable',
+		'Anduril',
+		'Applied Intuition',
+		'Brex',
+		'Checkr',
+		'Coinbase',
+		'dbt Labs',
+		'Deel',
+		'Figma',
+		'Flexport',
+		'Gitlab',
+		'Gusto',
+		'Instacart',
+		'Navan',
+		'Notion',
+		'Opendoor',
+		'PagerDuty',
+		'Pinterest',
+		'Retool',
+		'Rippling',
+		'Samsara',
+		'Square',
+		'Stripe'
+	];
 </script>
 
 {#if $isNew}
 	<!-- New design -->
-	<div class="new-design flex max-w-xl flex-col gap-24">
+	<div class="new-design flex max-w-[532px] flex-col gap-24">
 		<div class="flex flex-col gap-8">
 			<h1 class="whitespace-nowrap text-4xl md:text-5xl">Elad Gil</h1>
 			<img src="./elad-gil.jpg" alt="avatar" class="h-48 w-48" />
@@ -44,7 +71,7 @@
 			</h2>
 		</div>
 	</div>
-	<main class="flex max-w-xl flex-col gap-4">
+	<main class="flex max-w-[532px] flex-col gap-4">
 		<p class="italic">
 			I have been working on a series of investments, incubations, and operating companies focused
 			on the technology future.
@@ -75,11 +102,16 @@
 
 		<TextSection title="Investing.">Past investments include:</TextSection>
 
-		<p class="non-ul">
-			Airbnb, Airtable, Anduril, Applied Intuition, Brex, Checkr, Coinbase, dbt Labs, Deel, Figma,
-			Flexport, Gitlab, Gusto, Instacart, Navan, Notion, Opendoor, PagerDuty, Pinterest, Retool,
-			Rippling, Samsara, Square, Stripe etc
-		</p>
+		<ul class="flex w-full list-none flex-row flex-wrap gap-4">
+			{#each investments as investment}
+				<li
+					class="ml-0 rounded-lg border border-neutral-300 bg-neutral-50 p-2 text-xs uppercase tracking-widest"
+				>
+					{investment}
+				</li>
+			{/each}
+		</ul>
+
 		<TextSection title="AI.">I got involved with ML & generative AI early.</TextSection>
 
 		<ul>
