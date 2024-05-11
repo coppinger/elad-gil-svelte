@@ -46,7 +46,7 @@
 				</div>
 			</div>
 		</div>
-		<h2 class="text-lg font-bold">Technology entrepreneur, investor, & future forward optimist</h2>
+		<h2 class="text-xl font-bold">Technology entrepreneur, investor, & future forward optimist</h2>
 	</div>
 </div>
 <main class="flex flex-col gap-4">
