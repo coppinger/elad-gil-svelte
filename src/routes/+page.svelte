@@ -3,7 +3,7 @@
 </script>
 
 <div class="flex flex-col gap-16 sm:flex-row">
-	<h1 class="hidden text-5xl sm:block">Elad Gil</h1>
+	<h1 class="hidden whitespace-nowrap text-4xl sm:block md:text-5xl">Elad Gil</h1>
 	<div class="flex flex-col gap-4">
 		<div class="flex flex-col gap-4 sm:flex-row sm:items-center">
 			<img
