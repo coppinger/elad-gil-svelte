@@ -46,7 +46,7 @@ companies focused on the technology future."
 <div
 	class={cn(
 		'min-w-screen relative mx-auto flex min-h-screen max-w-[1064px] flex-col gap-8 py-16  sm:py-40',
-		$isNew ? 'mx-5 xl:mx-auto' : 'px-5 sm:px-8'
+		$isNew ? 'px-5 xl:px-0' : 'px-5 sm:px-8'
 	)}
 >
 	{#if $isNew}
