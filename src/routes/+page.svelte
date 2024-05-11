@@ -89,13 +89,14 @@
 
 	<ul class="list-disc">
 		<li class="">
-			I invested early in, or led rounds for e.g. Braintrust, Character, Harvey, Mistral,
-			Perplexity, Pika, and others
+			I invested early in, or led rounds for e.g. <a href="">Braintrust</a>, Character,
+			<a href="">Harvey</a>, Mistral,
+			<a href="">Perplexity</a>, Pika, and others
 		</li>
 
 		<li class="">I prior ran AI centric product orgs at Google & Twitter</li>
 
-		<li class="">I have an AI podcast named No Priors</li>
+		<li class="">I have an AI podcast named a <a href="">No Priors</a></li>
 	</ul>
 
 	<TextSection title="Longevity.">
@@ -105,7 +106,7 @@
 	</TextSection>
 
 	<ul class="">
-		<li class="">I personally identified a<a href="">gene involved in lifespan</a></li>
+		<li class="">I personally identified a <a href="">gene involved in lifespan</a></li>
 		<li class="">
 			I have also funded a clinical trial at Stanford on aging (it didnt work! DOH! Happy to try
 			again)
